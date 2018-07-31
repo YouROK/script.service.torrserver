@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.torrserver" name="TorrServer" version="1.0.65" provider-name="YouROK, Nemiroff">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0" />
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">TorrServer</summary>
+        <description lang="en">TorrServer is a torrent streaming engine.</description>
+        <language>en</language>
+        <platform>all</platform>
+        <forum></forum>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart></fanart>
+        </assets>
+    </extension>
+</addon>

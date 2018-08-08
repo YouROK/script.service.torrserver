@@ -14,6 +14,9 @@
         <assets>
             <icon>icon.png</icon>
             <fanart></fanart>
+            <screenshot>home.png</screenshot>
+            <screenshot>search.png</screenshot>
+            <screenshot>torrents.png</screenshot>
         </assets>
     </extension>
 </addon>

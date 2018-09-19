@@ -45,5 +45,9 @@ msgid "TorrServer Port"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Try download it from http://github.com/YouROK/ ?"
+msgid "Download version"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Update binaries on start"
 msgstr ""

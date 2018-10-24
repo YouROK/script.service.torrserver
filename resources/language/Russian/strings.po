@@ -45,9 +45,13 @@ msgid "TorrServer Port"
 msgstr "TorrServer порт"
 
 msgctxt "#30007"
-msgid "Download version"
-msgstr "Скачивать указанную версию"
+msgid "Try download this file from github.com"
+msgstr "Пробуем скачать файл с github.com"
 
 msgctxt "#30008"
 msgid "Update binaries on start"
 msgstr "Обновлять сервер при каждом запуске"
+
+msgctxt "#30009"
+msgid "Download version (ex: 1.1.66)"
+msgstr "Скачивать версию (пр: 1.1.66)"

@@ -2,6 +2,6 @@
 <settings>
     <setting label="30005" id="log_only_error" type="bool" default="false" />
     <setting label="30006" id="torrserver_port" type="number" default="8090" />
-    <setting label="30007" id="git_version" type="text" default="" />
+    <setting label="30009" id="git_version" type="text" default="" />
     <setting label="30008" id="update_binaries" type="bool" default="false" />
 </settings>

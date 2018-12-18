@@ -2,10 +2,8 @@ NAME = script.service.torrserver
 GIT = git
 GIT_VERSION = $(shell $(GIT) describe --abbrev=0 --tags)
 TAG_VERSION = $(subst v,,$(GIT_VERSION))
-LAST_COMMIT = $(shell $(GIT) log -1 --pretty=\%B)
-VERSION = $(shell sed -ne "s/.*COLOR\]\"\sversion=\"\([0-9a-z\.\-]*\)\".*/\1/p" addon.xml)
 ZIP_SUFFIX = zip
-ZIP_FILE = $(NAME)-$(VERSION).$(ZIP_SUFFIX)
+ZIP_FILE = $(NAME)-$(TAG_VERSION).$(ZIP_SUFFIX)
 
 all: clean zip
 
